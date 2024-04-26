@@ -1,0 +1,16 @@
+# Ignore version control system directories
+.git
+.gitignore
+
+# Ignore Python bytecode files
+__pycache__
+*.pyc
+
+# Ignore local development settings files
+*.sqlite3
+
+# Ignore Docker-specific files
+.dockerignore
+Dockerfile
+
+# Ignore any other files or directories specific to your project
