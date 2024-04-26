@@ -3,7 +3,7 @@ from datetime import datetime
 from .forms import *
 from segno import helpers
 from PIL import Image
-# from pyzbar.pyzbar import decode
+from pyzbar.pyzbar import decode
 import codecs
 import ast
 import vobject
