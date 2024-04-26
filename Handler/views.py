@@ -20,7 +20,7 @@ def create_qrcode(data):
         zipcode=data['zipcode'], country=data['country'], org=data['org'], lat=data['lat'], lng=data['lng'],
         title=data['title'], photo_uri=data['photo_uri']
     )
-    qrcode.save(filename, scale=1)
+    qrcode.save(filename, scale=4)
     return str(timestamp) + '.png'
 
 
